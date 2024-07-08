@@ -36,6 +36,10 @@ text-decoration: none;
 
 /* Shared styles */
 
+.secondary-bg{
+  background-color: #FFF8F3;
+}
+
 .dark-2{
 color: var(--Dark-02, #474747);
 font-size: 20px;
@@ -118,7 +122,7 @@ color: var(--Dark-03, #757575);
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 20px;
+line-height: 24px;
 margin-top: 15px;
 }
 
@@ -127,4 +131,59 @@ margin-top: 15px;
   margin-top: 25px;
   margin-right: 25px;
   padding: 12px 24px;
+}
+
+main{
+  width: 850px;
+  margin: 0px auto;
+}
+
+/* About section styles */
+
+.section-title{
+color: var(#181818);
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.section-description{
+color: var(#757575);
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-top: 20px;
+}
+
+.about{
+  border-radius: 10px;
+  margin-top: 80px;
+  padding: 80px;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.item-title{
+color: var(#757575);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+.item-description{
+color: var (#474747);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
 }
